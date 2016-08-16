@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" android:drawable="@mipmap/icon_share_red_3x"></item>
-    <item android:state_selected="false" android:drawable="@mipmap/icon_share_blackx"></item>
-</selector>
