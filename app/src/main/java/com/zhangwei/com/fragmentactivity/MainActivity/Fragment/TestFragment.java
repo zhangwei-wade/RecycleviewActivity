@@ -46,6 +46,7 @@ public class TestFragment extends BaseFragment {
      */
     private void InitView() {
         mTestRecycler = $.findViewById(R.id.testRecycler);
+        mTestRecycler = $.findViewById(R.id.testRecycler);
         mRecyclerView = mTestRecycler.getRecyclerView();
         ltm = new LinearLayoutManager(getActivity());
         mRecyclerView.setLayoutManager(ltm);
