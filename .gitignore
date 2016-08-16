@@ -51,4 +51,4 @@ libFrame/src/main/res/layout/CVS/
 libFrame/src/main/res/values-v13/CVS/
 libFrame/src/main/res/values-v8/CVS/
 libFrame/src/main/res/values/CVS/
-libFrame/build/
+libFrame/build/*
