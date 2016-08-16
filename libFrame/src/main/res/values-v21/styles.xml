@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--界面配置样式-->
+    <style name="configHoloStyle" parent="android:Theme.Material.Light.NoActionBar">
+        <!--<item name="android:configChanges">orientation|keyboardHidden</item>-->
+    </style>
+
+    <style name="HoloLightDialog" parent="android:Theme.Material.Dialog">
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@color/bg_transparency</item>
+
+    </style>
+
+    <style name="HoloLightNoTitleDialog" parent="android:Theme.Material.Dialog.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@drawable/shape_bg_white</item>
+        <!-- 半透明 -->
+    </style>
+
+    <!--<style name="customNoTitleDialog" parent="android:Theme.Material.Dialog.NoActionBar">-->
+    <!--<item name="android:windowFrame">@null</item>-->
+    <!--&lt;!&ndash; 边框 &ndash;&gt;-->
+    <!--<item name="android:windowIsFloating">false</item>-->
+    <!--&lt;!&ndash; 是否浮现在activity之上 &ndash;&gt;-->
+    <!--<item name="android:windowIsTranslucent">false</item>-->
+    <!--&lt;!&ndash; 半透明 &ndash;&gt;-->
+    <!--<item name="android:backgroundDimEnabled">true</item>-->
+    <!--&lt;!&ndash; 模糊 &ndash;&gt;-->
+    <!--</style>-->
+</resources>

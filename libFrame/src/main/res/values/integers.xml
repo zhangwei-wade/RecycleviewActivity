@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--图片的上传最大数量-->
+    <integer name="photoImage">3</integer>
+    <integer name="refresh">300</integer>
+</resources>

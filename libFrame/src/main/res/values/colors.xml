@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ActivityBG">#ffffff</color>
+    <color name="bg_black">#ff000000</color>
+    <color name="bg_white">#ffffffff</color>
+    <!-- 广场分割线颜色-->
+    <color name="gc_bg">#ffcc00</color>
+    <color name="bg_transparency">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#77ffffff</color>
+    <color name="light_black">#77000000</color>
+    <color name="spinner_popup_list_view_item_High_Light">#60d49bf5</color>
+    <color name="light_bg_black">#70949292</color>
+    <color name="spinner_popup_list_view_bg">#79f0c8f8</color>
+    <color name="gray">#ff909090</color>
+    <color name="titleBG">#ffffff</color>
+</resources>

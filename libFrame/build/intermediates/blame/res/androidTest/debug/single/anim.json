@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_out_left.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_out_left.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\settingswindow_in_anim.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\settingswindow_in_anim.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\popshow_anim.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\popshow_anim.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pophidden_anim.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\pophidden_anim.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_in_left.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_in_left.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\settingswindow_out_anim.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\settingswindow_out_anim.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_out_right.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_out_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialogenter.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\dialogenter.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pull_in_right.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\pull_in_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialogexit.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\bundles\\debug\\res\\anim\\dialogexit.xml"
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\selector_bg_blue.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\selector_bg_blue.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\back.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\back.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_camera.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\selector_btn_camera.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\customtoastbg.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\customtoastbg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\seletorfuntionbg.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\seletorfuntionbg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\progressbarrotate.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\progressbarrotate.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\spinner_popup_item_bg.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\spinner_popup_item_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\seletor_btn_gray.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\seletor_btn_gray.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\newsitem_bg2.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\newsitem_bg2.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\camera_background.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\camera_background.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\pictures_select_icon.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\pictures_select_icon.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\newsitem_bg1.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\newsitem_bg1.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\share.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\share.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\repeat_titlebar_bg.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\repeat_titlebar_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\shape_bg_white.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\shape_bg_white.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\release\\drawable\\downdialogbg.xml",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\drawable\\downdialogbg.xml"
+    }
+]

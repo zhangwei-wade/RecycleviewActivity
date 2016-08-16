@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon_logo.png",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\mipmap-hdpi\\icon_logo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon_share_red_3x.png",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\mipmap-hdpi\\icon_share_red_3x.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon_share_blackx.png",
+        "source": "E:\\AndroidStudioSpace\\FragmentActivity\\libFrame\\src\\main\\res\\mipmap-hdpi\\icon_share_blackx.png"
+    }
+]

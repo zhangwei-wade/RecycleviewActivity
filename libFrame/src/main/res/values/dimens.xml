@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--titleBar距离属性-->
+    <dimen name="titleHeight">70dip</dimen>
+    <dimen name="titleFuncRightWidth">50dip</dimen>
+    <dimen name="titleFuncLeftWidth">65dip</dimen>
+</resources>
