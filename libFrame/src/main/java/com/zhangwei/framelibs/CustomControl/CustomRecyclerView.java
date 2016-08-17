@@ -11,8 +11,11 @@ import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
+import com.zhangwei.framelibs.Global.AbstractClass.BaseGlobal;
 import com.zhangwei.framelibs.Global.InitView;
 import com.zhangwei.framelibs.R;
+
+import javax.microedition.khronos.opengles.GL;
 
 /**
  * Created by wade on 2016/3/29.
@@ -50,9 +53,11 @@ public class CustomRecyclerView extends LinearLayout implements SwipeRefreshLayo
                 super.onScrollStateChanged(recyclerView, newState);
                 if (newState == RecyclerView.SCROLL_STATE_IDLE
                         && lastVisibleItem + 1 == recyclerView.getAdapter().getItemCount()) {
+                    BaseGlobal.playLog("MeasuredHeight:" + recyclerView.getMeasuredHeight() +
+                            "Height:" + recyclerView.getHeight());
 //                    swipeRefreshLayout.setRefreshing(true);
                     // 此处在现实项目中，请换成网络请求数据代码，sendRequest .....
-                    handler.sendEmptyMessageAtTime(1, 500);
+                    handler.sendEmptyMessageDelayed(1, 500);
                 }
             }
 

@@ -1,4 +1,4 @@
-package com.zhangwei.com.fragmentactivity.MainActivity.Adapter;
+package com.zhangwei.com.fragmentactivity.RecyclerView.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatTextView;
@@ -19,13 +19,13 @@ import java.util.List;
  * <p/>
  * 图片加载适配器
  */
-public class TestAdapter extends RecyclerView.Adapter<TestAdapter.MyViewHolder> {
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> {
     private final Context context;
     private List<String> mData;
     private DCItemClickInterface itemClickInterface;
     private DCItemLongClickInterface itemLongClickInterface;
 
-    public TestAdapter(Context context, List<String> mData) {
+    public RecyclerAdapter(Context context, List<String> mData) {
         this.context = context;
         this.mData = mData;
     }
