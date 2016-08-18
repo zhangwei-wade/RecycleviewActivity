@@ -22,6 +22,21 @@
         <activity
             android:name=".RecyclerView.RecyclerActivity"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".RecyclerView.HorizontalRecyclerActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".RecyclerView.VerticalRecyclerActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".RecyclerView.GridRecyclerActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".RecyclerView.StaggeredGridHorizontalActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".RecyclerView.StaggeredGridVerticalActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

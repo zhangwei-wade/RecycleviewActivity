@@ -1,41 +1,29 @@
 package com.zhangwei.com.fragmentactivity.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.zhangwei.com.fragmentactivity.BaseGlobal.BaseActivity.BaseActivity;
-import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerGridItemDecoration;
 import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerItemDecoration;
-import com.zhangwei.com.fragmentactivity.Module.Interface.DCItemClickInterface;
 import com.zhangwei.com.fragmentactivity.R;
 import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.RecyclerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 /**
- * Created by DCSHA192 on 2016/8/17.
- * 垂直显示的recycleview
+ * Created by DCSHA192 on 2016/8/18.
  */
-public class RecyclerActivity extends BaseActivity implements DCItemClickInterface {
+public class HorizontalRecyclerActivity extends BaseActivity {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
     private RecyclerAdapter adapter;//recyclerView适配器
     private List<String> data = new ArrayList<>();//显示的数据源
     private DividerItemDecoration listDivider;//垂直显示分割线
-    private String[] arry = new String[]{
-            "HorizontalRecycler", "VerticalRecycler",
-            "GridRecycler", "StaggeredGridHorizontal",
-            "StaggeredGridVertical"
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +31,7 @@ public class RecyclerActivity extends BaseActivity implements DCItemClickInterfa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recycler_layout);
         listDivider = new DividerItemDecoration(this,
-                DividerItemDecoration.VERTICAL_LIST);
+                DividerItemDecoration.HORIZONTAL_LIST);
         Init();
         BindData();
     }
@@ -52,15 +40,14 @@ public class RecyclerActivity extends BaseActivity implements DCItemClickInterfa
     private void Init() {
         mToolbar = $.findViewById(R.id.toolbar);
         mRecyclerView = $.findViewById(R.id.recyclerView);
-        mToolbar.setTitle("RecyclerView");// 标题的文字需在setSupportActionBar之前，不然会无效
+        mToolbar.setTitle("HorizontalRecycler");// 标题的文字需在setSupportActionBar之前，不然会无效
         setSupportActionBar(mToolbar);
         LinearLayoutManager ltm = new LinearLayoutManager(this,
-                LinearLayoutManager.VERTICAL, false);
+                LinearLayoutManager.HORIZONTAL, false);
         mRecyclerView.setLayoutManager(ltm);//设置recycleview的显示方式
         mRecyclerView.addItemDecoration(listDivider);//添加垂直分割线
         adapter = new RecyclerAdapter(this, data);
         mRecyclerView.setAdapter(adapter);
-        adapter.setItemClickInterface(this);
     }
 
     /**
@@ -68,33 +55,32 @@ public class RecyclerActivity extends BaseActivity implements DCItemClickInterfa
      */
     private void BindData() {
         int count = 20;
-        for (int i = 0; i < arry.length; i++) {
-            data.add(arry[i]);
+        for (int i = 0; i < count; i++) {
+            data.add("DCTest000" + i);
         }
         adapter.notifyItemRangeInserted(data.size() - count, count);
     }
 
     @Override
-    public void onItemClick(View view, int position) {
-        Intent intent = null;
-        switch (position) {
-            case 0:
-                intent = new Intent(this, HorizontalRecyclerActivity.class);
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.add:
+                data.add(2, "DCTest000" + data.size());
+                data.add(2, "DCTest000" + data.size());
+                data.add(2, "DCTest000" + data.size());
+                adapter.notifyItemRangeInserted(2, 3);
                 break;
-            case 1:
-                intent = new Intent(this, VerticalRecyclerActivity.class);
-                break;
-            case 2:
-                intent = new Intent(this, GridRecyclerActivity.class);
-                break;
-            case 3:
-                intent = new Intent(this, StaggeredGridHorizontalActivity.class);
-                break;
-            case 4:
-                intent = new Intent(this, StaggeredGridVerticalActivity.class);
+            case R.id.remove:
+                data.remove(2);
+                adapter.notifyItemRemoved(2);
                 break;
         }
-        if (intent != null)
-            startActivity(intent);
+        return super.onOptionsItemSelected(item);
     }
 }
