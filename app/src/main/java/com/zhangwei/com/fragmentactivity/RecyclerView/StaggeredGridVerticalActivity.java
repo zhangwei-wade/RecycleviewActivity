@@ -13,6 +13,7 @@ import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerGridItemDecoration;
 import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerItemDecoration;
 import com.zhangwei.com.fragmentactivity.R;
 import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.RecyclerAdapter;
+import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.StaggeredRecyclerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ import java.util.List;
 public class StaggeredGridVerticalActivity extends BaseActivity {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
-    private RecyclerAdapter adapter;//recyclerView适配器
+    private StaggeredRecyclerAdapter adapter;//recyclerView适配器
     private List<String> data = new ArrayList<>();//显示的数据源
     private DividerGridItemDecoration listDivider;//垂直显示分割线
 
@@ -47,7 +48,7 @@ public class StaggeredGridVerticalActivity extends BaseActivity {
                 StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(ltm);//设置recycleview的显示方式
         mRecyclerView.addItemDecoration(listDivider);//添加垂直分割线
-        adapter = new RecyclerAdapter(this, data);
+        adapter = new StaggeredRecyclerAdapter(this, data);
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -58,6 +59,7 @@ public class StaggeredGridVerticalActivity extends BaseActivity {
         int count = 20;
         for (int i = 0; i < count; i++) {
             data.add("DCTest000" + i);
+            adapter.addHeights(i);
         }
         adapter.notifyItemRangeInserted(data.size() - count, count);
     }
@@ -73,12 +75,16 @@ public class StaggeredGridVerticalActivity extends BaseActivity {
         switch (item.getItemId()) {
             case R.id.add:
                 data.add(2, "DCTest000" + data.size());
+                adapter.addHeights(2);
                 data.add(2, "DCTest000" + data.size());
+                adapter.addHeights(2);
                 data.add(2, "DCTest000" + data.size());
+                adapter.addHeights(2);
                 adapter.notifyItemRangeInserted(2, 3);
                 break;
             case R.id.remove:
                 data.remove(2);
+                adapter.removeHeights(2);
                 adapter.notifyItemRemoved(2);
                 break;
         }

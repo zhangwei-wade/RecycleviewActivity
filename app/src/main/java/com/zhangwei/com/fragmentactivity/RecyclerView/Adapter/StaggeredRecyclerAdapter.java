@@ -20,15 +20,28 @@ import java.util.List;
  * <p/>
  * 图片加载适配器
  */
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> {
+public class StaggeredRecyclerAdapter extends RecyclerView.Adapter<StaggeredRecyclerAdapter.MyViewHolder> {
     private final Context context;
     private List<String> mData;
     private DCItemClickInterface itemClickInterface;
     private DCItemLongClickInterface itemLongClickInterface;
+    private List<Integer> heights;
 
-    public RecyclerAdapter(Context context, List<String> mData) {
+    public StaggeredRecyclerAdapter(Context context, List<String> mData) {
         this.context = context;
         this.mData = mData;
+        heights = new ArrayList<>();
+        for (int i = 0; i < mData.size(); i++) {
+            heights.add((int) Math.max(200, Math.random() * 550));
+        }
+    }
+
+    public void addHeights(int position) {
+        heights.add(position, (int) Math.max(200, Math.random() * 550));
+    }
+
+    public void removeHeights(int position) {
+        heights.remove(position);
     }
 
 
@@ -57,6 +70,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
+        ViewGroup.LayoutParams params = holder.mName.getLayoutParams();
+        params.height = heights.get(position);
         holder.mName.setText(mData.get(position));
     }
 
@@ -77,6 +92,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             super.onCreate(view);
             mName = (AppCompatTextView) view.findViewById(R.id.funName);
         }
+
     }
 
 }

@@ -1,6 +1,7 @@
 package com.zhangwei.com.fragmentactivity.RecyclerView;
 
 import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -45,7 +46,8 @@ public class VerticalRecyclerActivity extends BaseActivity {
         LinearLayoutManager ltm = new LinearLayoutManager(this,
                 LinearLayoutManager.VERTICAL, false);
         mRecyclerView.setLayoutManager(ltm);//设置recycleview的显示方式
-        mRecyclerView.addItemDecoration(listDivider);//添加垂直分割线
+        mRecyclerView.addItemDecoration(listDivider);//添加分割线
+        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         adapter = new RecyclerAdapter(this, data);
         mRecyclerView.setAdapter(adapter);
     }

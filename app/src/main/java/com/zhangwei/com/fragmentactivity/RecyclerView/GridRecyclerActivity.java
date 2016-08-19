@@ -77,11 +77,13 @@ public class GridRecyclerActivity extends BaseActivity {
 //                data.add(2, "DCTest000" + data.size());
 //                adapter.notifyItemRangeInserted(2, 3);
 //                adapter.notifyDataSetChanged();
+                adapter.notifyItemChanged(2, adapter.getItemCount());
                 break;
             case R.id.remove:
                 data.remove(2);
                 adapter.notifyItemRemoved(2);
 //                adapter.notifyDataSetChanged();
+                adapter.notifyDataSetChanged();
                 break;
         }
         return super.onOptionsItemSelected(item);

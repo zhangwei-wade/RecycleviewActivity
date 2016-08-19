@@ -13,6 +13,7 @@ import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerGridItemDecoration;
 import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerItemDecoration;
 import com.zhangwei.com.fragmentactivity.R;
 import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.RecyclerAdapter;
+import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.RecyclerHorizontalAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ import java.util.List;
 public class StaggeredGridHorizontalActivity extends BaseActivity {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
-    private RecyclerAdapter adapter;//recyclerView适配器
+    private RecyclerHorizontalAdapter adapter;//recyclerView适配器
     private List<String> data = new ArrayList<>();//显示的数据源
     private DividerGridItemDecoration listDivider;//垂直显示分割线
 
@@ -47,7 +48,7 @@ public class StaggeredGridHorizontalActivity extends BaseActivity {
                 StaggeredGridLayoutManager.HORIZONTAL);
         mRecyclerView.setLayoutManager(ltm);//设置recycleview的显示方式
         mRecyclerView.addItemDecoration(listDivider);//添加垂直分割线
-        adapter = new RecyclerAdapter(this, data);
+        adapter = new RecyclerHorizontalAdapter(this, data);
         mRecyclerView.setAdapter(adapter);
     }
 

@@ -6,13 +6,13 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import com.zhangwei.com.fragmentactivity.BaseGlobal.BaseAdapter.DCBaseViewHolder;
 import com.zhangwei.com.fragmentactivity.Module.Interface.DCItemClickInterface;
 import com.zhangwei.com.fragmentactivity.Module.Interface.DCItemLongClickInterface;
 import com.zhangwei.com.fragmentactivity.R;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -20,13 +20,13 @@ import java.util.List;
  * <p/>
  * 图片加载适配器
  */
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> {
+public class RecyclerHorizontalAdapter extends RecyclerView.Adapter<RecyclerHorizontalAdapter.MyViewHolder> {
     private final Context context;
     private List<String> mData;
     private DCItemClickInterface itemClickInterface;
     private DCItemLongClickInterface itemLongClickInterface;
 
-    public RecyclerAdapter(Context context, List<String> mData) {
+    public RecyclerHorizontalAdapter(Context context, List<String> mData) {
         this.context = context;
         this.mData = mData;
     }
@@ -75,6 +75,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
         @Override
         public void onCreate(View view) {
             super.onCreate(view);
+            view.setLayoutParams(new LinearLayout.LayoutParams(
+                    ViewGroup.LayoutParams.WRAP_CONTENT,
+                    ViewGroup.LayoutParams.WRAP_CONTENT));
             mName = (AppCompatTextView) view.findViewById(R.id.funName);
         }
     }
