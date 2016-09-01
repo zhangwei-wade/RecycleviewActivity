@@ -23,20 +23,30 @@
             android:name=".RecyclerView.RecyclerActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".RecyclerView.HorizontalRecyclerActivity"
+            android:name=".RecyclerView.RecyclerItemActivity.HorizontalRecyclerActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".RecyclerView.VerticalRecyclerActivity"
+            android:name=".RecyclerView.RecyclerItemActivity.VerticalRecyclerActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".RecyclerView.GridRecyclerActivity"
+            android:name=".RecyclerView.RecyclerItemActivity.GridRecyclerActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".RecyclerView.StaggeredGridHorizontalActivity"
+            android:name=".RecyclerView.RecyclerItemActivity.StaggeredGridHorizontalActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".RecyclerView.StaggeredGridVerticalActivity"
+            android:name=".RecyclerView.RecyclerItemActivity.StaggeredGridVerticalActivity"
             android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CoordinatorLayout.CoordinatorActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CoordinatorLayout.CoordinatorItemActivity.CoordinatorSnackBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoordinatorLayout.CoordinatorItemActivity.CoordinatorToolBar"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

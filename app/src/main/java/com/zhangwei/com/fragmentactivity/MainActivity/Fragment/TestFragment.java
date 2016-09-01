@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.zhangwei.com.fragmentactivity.BaseGlobal.BaseFragment.BaseFragment;
+import com.zhangwei.com.fragmentactivity.CoordinatorLayout.CoordinatorActivity;
 import com.zhangwei.com.fragmentactivity.MainActivity.Adapter.TestAdapter;
 import com.zhangwei.com.fragmentactivity.Module.Interface.DCItemClickInterface;
 import com.zhangwei.com.fragmentactivity.Module.Interface.DCItemLongClickInterface;
@@ -70,6 +71,10 @@ public class TestFragment extends BaseFragment implements DCItemClickInterface,
         switch (position) {
             case 0:
                 Intent intent = new Intent(getActivity(), RecyclerActivity.class);
+                startActivity(intent);
+                break;
+            case 1:
+                intent = new Intent(getActivity(), CoordinatorActivity.class);
                 startActivity(intent);
                 break;
         }

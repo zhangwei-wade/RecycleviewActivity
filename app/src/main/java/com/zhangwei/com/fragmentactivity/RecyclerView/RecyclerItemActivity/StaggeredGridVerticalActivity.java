@@ -1,17 +1,16 @@
-package com.zhangwei.com.fragmentactivity.RecyclerView;
+package com.zhangwei.com.fragmentactivity.RecyclerView.RecyclerItemActivity;
 
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.zhangwei.com.fragmentactivity.BaseGlobal.BaseActivity.BaseActivity;
-import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerItemDecoration;
+import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerGridItemDecoration;
 import com.zhangwei.com.fragmentactivity.R;
-import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.RecyclerAdapter;
-import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.RecyclerHorizontalAdapter;
+import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.StaggeredRecyclerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,20 +18,19 @@ import java.util.List;
 /**
  * Created by DCSHA192 on 2016/8/18.
  */
-public class HorizontalRecyclerActivity extends BaseActivity {
+public class StaggeredGridVerticalActivity extends BaseActivity {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
-    private RecyclerHorizontalAdapter adapter;//recyclerView适配器
+    private StaggeredRecyclerAdapter adapter;//recyclerView适配器
     private List<String> data = new ArrayList<>();//显示的数据源
-    private DividerItemDecoration listDivider;//垂直显示分割线
+    private DividerGridItemDecoration listDivider;//垂直显示分割线
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.AppTheme_Base);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recycler_layout);
-        listDivider = new DividerItemDecoration(this,
-                DividerItemDecoration.HORIZONTAL_LIST);
+        listDivider = new DividerGridItemDecoration(this, R.drawable.listdividerg);
         Init();
         BindData();
     }
@@ -41,13 +39,13 @@ public class HorizontalRecyclerActivity extends BaseActivity {
     private void Init() {
         mToolbar = $.findViewById(R.id.toolbar);
         mRecyclerView = $.findViewById(R.id.recyclerView);
-        mToolbar.setTitle("HorizontalRecycler");// 标题的文字需在setSupportActionBar之前，不然会无效
+        mToolbar.setTitle("StaggeredGridVertical");// 标题的文字需在setSupportActionBar之前，不然会无效
         setSupportActionBar(mToolbar);
-        LinearLayoutManager ltm = new LinearLayoutManager(this,
-                LinearLayoutManager.HORIZONTAL, false);
+        StaggeredGridLayoutManager ltm = new StaggeredGridLayoutManager(4,
+                StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(ltm);//设置recycleview的显示方式
         mRecyclerView.addItemDecoration(listDivider);//添加垂直分割线
-        adapter = new RecyclerHorizontalAdapter(this, data);
+        adapter = new StaggeredRecyclerAdapter(this, data);
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -58,6 +56,7 @@ public class HorizontalRecyclerActivity extends BaseActivity {
         int count = 20;
         for (int i = 0; i < count; i++) {
             data.add("DCTest000" + i);
+            adapter.addHeights(i);
         }
         adapter.notifyItemRangeInserted(data.size() - count, count);
     }
@@ -73,12 +72,16 @@ public class HorizontalRecyclerActivity extends BaseActivity {
         switch (item.getItemId()) {
             case R.id.add:
                 data.add(2, "DCTest000" + data.size());
+                adapter.addHeights(2);
                 data.add(2, "DCTest000" + data.size());
+                adapter.addHeights(2);
                 data.add(2, "DCTest000" + data.size());
+                adapter.addHeights(2);
                 adapter.notifyItemRangeInserted(2, 3);
                 break;
             case R.id.remove:
                 data.remove(2);
+                adapter.removeHeights(2);
                 adapter.notifyItemRemoved(2);
                 break;
         }

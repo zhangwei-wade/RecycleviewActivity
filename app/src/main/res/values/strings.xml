@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">FragmentActivity</string>
+    <string name="floatMessage">Hello  I\'m a FloatingActionButton</string>
+    <array name="array">
+        <item>滚动测试001</item>
+        <item>滚动测试002</item>
+        <item>滚动测试003</item>
+        <item>滚动测试004</item>
+        <item>滚动测试005</item>
+        <item>滚动测试006</item>
+        <item>滚动测试007</item>
+        <item>滚动测试008</item>
+        <item>滚动测试009</item>
+        <item>滚动测试010</item>
+        <item>滚动测试011</item>
+        <item>滚动测试012</item>
+    </array>
 </resources>

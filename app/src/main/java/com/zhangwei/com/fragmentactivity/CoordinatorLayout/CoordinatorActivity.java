@@ -1,4 +1,4 @@
-package com.zhangwei.com.fragmentactivity.RecyclerView;
+package com.zhangwei.com.fragmentactivity.CoordinatorLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.View;
 
 import com.zhangwei.com.fragmentactivity.BaseGlobal.BaseActivity.BaseActivity;
 import com.zhangwei.com.fragmentactivity.BaseGlobal.DividerItemDecoration;
+import com.zhangwei.com.fragmentactivity.CoordinatorLayout.CoordinatorItemActivity.CoordinatorSnackBar;
+import com.zhangwei.com.fragmentactivity.CoordinatorLayout.CoordinatorItemActivity.CoordinatorToolBar;
 import com.zhangwei.com.fragmentactivity.Module.Interface.DCItemClickInterface;
 import com.zhangwei.com.fragmentactivity.R;
 import com.zhangwei.com.fragmentactivity.RecyclerView.Adapter.RecyclerAdapter;
@@ -22,19 +24,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by DCSHA192 on 2016/8/17.
- * 垂直显示的recycleview
+ * Created by DCSHA192 on 2016/8/26.
  */
-public class RecyclerActivity extends BaseActivity implements DCItemClickInterface {
+public class CoordinatorActivity extends BaseActivity implements DCItemClickInterface {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
     private RecyclerAdapter adapter;//recyclerView适配器
     private List<String> data = new ArrayList<>();//显示的数据源
     private DividerItemDecoration listDivider;//垂直显示分割线
     private String[] arry = new String[]{
-            "HorizontalRecycler", "VerticalRecycler",
-            "GridRecycler", "StaggeredGridHorizontal",
-            "StaggeredGridVertical"
+            "CoordinatorSnackBar", "CollapsingToolbarLayout"
     };
 
     @Override
@@ -79,22 +78,14 @@ public class RecyclerActivity extends BaseActivity implements DCItemClickInterfa
         Intent intent = null;
         switch (position) {
             case 0:
-                intent = new Intent(this, HorizontalRecyclerActivity.class);
+                intent = new Intent(this, CoordinatorSnackBar.class);
                 break;
             case 1:
-                intent = new Intent(this, VerticalRecyclerActivity.class);
-                break;
-            case 2:
-                intent = new Intent(this, GridRecyclerActivity.class);
-                break;
-            case 3:
-                intent = new Intent(this, StaggeredGridHorizontalActivity.class);
-                break;
-            case 4:
-                intent = new Intent(this, StaggeredGridVerticalActivity.class);
+                intent = new Intent(this, CoordinatorToolBar.class);
                 break;
         }
         if (intent != null)
             startActivity(intent);
     }
+
 }
